@@ -75,6 +75,8 @@ static void f407_discovery_DefaultConfiguration() {
 	engineConfiguration->iat.adcChannel = EFI_ADC_7;
 	engineConfiguration->afr.hwChannel = EFI_ADC_14;
 
+  engineConfiguration->tps1_1adcChannel = EFI_ADC_3;
+
 	engineConfiguration->accelerometerSpiDevice = SPI_DEVICE_1;
 
 	engineConfiguration->triggerSimulatorPins[0] = Gpio::D1;
